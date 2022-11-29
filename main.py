@@ -25,7 +25,7 @@ def load_data():
             filepath = os.path.abspath(os.path.join(
                 os.path.realpath(__file__), 'training_data',
                 CONFIG['data']['training_data']))
-            filepath = "C:\\Users\\jessj\\applied ai\\proj 2\\Tensorflow\musegan\\v3\\training_data\\lastfm_alternative_8b_phrase.npy"
+            # filepath = "C:\\Users\\jessj\\applied ai\\proj 2\\Tensorflow\musegan\\v3\\training_data\\lastfm_alternative_8b_phrase.npy"
             x_train = np.load(filepath)
 
     # Reshape data
